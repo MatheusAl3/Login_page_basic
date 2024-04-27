@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="bg-light ">
+    <!----NAV BAR---->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid flex-row justify-content-between ">
+            <div>
+                <a class="navbar-brand fw-bold " style="font-size: 22px; " href="#">Good</a>
+                <a class="navbar-brand fw-bold ms-n1 text-warning" style="font-size:22px;" href="#">Food</a>
+            </div>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fw-semibold  ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Book</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">Pricing</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button type="button" class=" btn btn-dark fw-semibold rounded-5"
+                style="width: 100px; background-color:#000000;"> login </button>
+        </div>
+    </nav>
+
+    <main class=" container  d-flex justify-content-center  align-items-center mt-lg-5 m  ">
+
+        <!--Container left-->
+        <div class="d-flex flex-column align-items-center  me-5">
+            <div style="margin-left: 70px;">
+                <h1 style="font-size: 69px;">Fresh Food</h1>
+                <h1 class="ps-3" style="font-size: 65px;">Great Taste</h1>
+            </div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quam architecto quibusdam, temporibu
+                laudantium quo id eius totam assumenda esse veritatis! Dolorum recusandae necessitatibus beatae dolores.
+            </p>
+            <div class="p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <form action="/search" method="get" class="d-flex">
+                                <input type="text" placeholder="Find Great Food" name="query" class="form-control form-control-lg fs-4 pb-3  rounded-5 shadow ">
+                                <button type="submit" class="btn bg-black icon-search ms-n2">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="container m-2">
+                    <div class="d-flex justify-content-between" style="padding-top: 150px;">
+                        <i class="bi bi-caret-left-fill pe-3 pt-7 "></i>
+                        <button type="button" class="btn btn-dark bg-prod-nav shadow-lg ">
+                            <div class="bg-icon">
+                                <img src="./assets/icon-cake.png" alt="" class="prod-nav ">
+                            </div>
+                            <p class="text-warning fw-semibold ">cake</p>
+                            <ul class="p-2 "><i class="bi bi-star-fill text-warning"></i>2,25</ul>
+                        </button>
+                        
+                        <button type="button" class="btn btn-warning bg-prod-nav shadow-lg ">
+                            <div class="bg-icon">
+                                <img  src="./assets/icon-burguer.png" alt="" class="prod-nav ">
+                            </div>
+                            <p class="fw-semibold">burguer</p>
+                            <ul class="p-2 "><i class="bi bi-star-fill"></i>3,25</ul>
+                        </button>
+                        
+                        <button type="button" class="btn btn-dark bg-prod-nav shadow-lg ">
+                            <div class="bg-icon">
+                                <img src="./assets/icon-salad.png" alt="" class="prod-nav">
+                            </div>
+                            <p class="text-warning fw-semibold">salad</p>
+                            <ul class="p-1 "><i class="bi bi-star-fill text-warning"></i>3,00</ul>
+                        </button>
+                        <i class="bi bi-caret-right-fill ps-3 pt-7"></i>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+        <!--Container right-->
+        <div class="">
+            <div class="bg-image-food col ">
+                <div class="d-flex flex-row ">
+                    <div class=" ps-4 pt-6 mb-5">
+                        <i class='bx bx-certification icon-cert '></i>
+                    </div>
+                    <div class="ps-2 pt-5 mb-5 ">
+                        <div class=" d-flex bg-light fw-semibold  bg-opacity-75 rounded-5 justify-content-center  align-items-center "
+                            style="height: 45px; width: 235px; ">
+                            <p class="ps-3 pt-3 ">Show Top-Rated Foods</p>
+                            <a class="btn fs-3 ps-2" href=""><i class="bi bi-arrow-up-right-circle-fill text-black "
+                                    ;></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div style="padding-top: 170px;">
+                    <div class="pt-5 m-4 d-flex flex-column text-white">
+                        <h1 class="" style="font-size: 38px;">Savor Healthy Eats-Keepit</h1>
+                        <h1 class="" style="font-size: 38px;">Casual and Easy-Going!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class=" d-flex align-items-center justify-content-between mt-4 w-100 bg-black rounded-5"
+                style="height: 80px;">
+                <h1 class="ps-5 text-white fs-3">3,500+Ratings</h1>
+                <div class="d-flex pt-2 pe-5  text-warning">
+                    <ul><i class="bi bi-star-fill"></i></ul>
+                    <ul><i class="bi bi-star-fill"></i></ul>
+                    <ul><i class="bi bi-star-fill"></i></ul>
+                    <ul><i class="bi bi-star-fill"></i></ul>
+                    <ul><i class="bi bi-star-fill"></i></ul>
+                </div>
+            </div>
+
+            <div class=" d-flex pt-3 justify-content-between" style="padding-bottom: 60px;">
+
+                <div class="bg-image-salad container-fluid d-flex align-items-end">
+                    <p class="fw-bold fs-4 text-white">Stuffed eggplants with youghurt and salad</p>
+                </div>
+                <div class="bg-image-soup container-fluid d-flex align-items-end">
+                    <p class="fw-bold fs-4 pb-2 text-white">Autumn soup</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>

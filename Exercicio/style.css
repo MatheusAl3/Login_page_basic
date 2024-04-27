@@ -1,0 +1,96 @@
+.bg-image-food{
+background-image:url('assets/food.jpeg');
+background-size:cover;
+background-repeat: no-repeat;
+width: 650px; 
+height: 500px;
+border-radius: 30px;
+
+}
+
+.bg-image-salad{
+    background-image:url('assets/salad.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 315px; 
+    height: 230px;
+    border-radius: 30px;
+    
+}
+
+.bg-image-soup{
+background-image:url('assets/soup.png');
+background-size:cover;
+background-repeat: no-repeat;
+width: 315px; 
+height: 230px;
+border-radius: 30px;
+        
+ }
+
+.icon-cert{
+padding: 7px;
+background-color: black;
+font-size: 23px;
+border-radius: 25px;
+color:orange;
+
+}
+
+.icon-search {
+margin-top: 8px;
+color: white;
+border-radius: 100px;  
+width: 45px;
+height: 45px;
+font-size: 14px;
+}  
+
+.bg-prod-nav {
+height: 185px;
+width: 105px;
+border-radius: 50px;
+}
+
+.prod-nav {
+    width: 50px;
+    height: 50px;
+}
+
+
+.bg-icon {
+background-color: white;
+border-radius: 100%;
+padding-top: 13px;
+width: 80px;
+height: 80px;
+margin-right: 20px;
+}
+
+.pt-6{
+padding-top: 54px
+}
+
+.pt-7 {
+padding-top: 75px;
+}
+
+input::placeholder {
+font-size: 15px;
+padding-bottom: 50px;
+}
+
+.ms-n1 {
+margin-left: -1.3rem !important;
+}
+.ms-n2 {
+margin-left: -3.4rem !important;
+  }
+ 
+@media screen and (max-width: 690px) {
+
+}
+
+@media screen and (max-width: 450px) {
+    
+}
